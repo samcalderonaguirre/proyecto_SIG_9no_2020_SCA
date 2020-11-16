@@ -36,7 +36,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="FullName" class="control-label col-lg-3">FullName<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="FullName" class="control-label col-lg-3">Nombres completos<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<input maxlength="40" type="text" class="form-control" name="FullName" id="FullName" value="<%%VALUE(FullName)%%>" required>
 					</div>
@@ -44,7 +44,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="Gender" class="control-label col-lg-3">Gender<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="Gender" class="control-label col-lg-3">Género<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<%%COMBO(Gender)%%>
 					</div>
@@ -52,7 +52,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="DOB" class="control-label col-lg-3">Death Of Birth<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="DOB" class="control-label col-lg-3">Año de nacimiento<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<%%COMBO(DOB)%%>
 					</div>
@@ -60,7 +60,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label class="control-label col-lg-3">Photo <i class="glyphicon glyphicon-info-sign text-info" data-toggle="collapse" data-target="#Photo-description"></i></label>
+					<label class="control-label col-lg-3">Foto <i class="glyphicon glyphicon-info-sign text-info" data-toggle="collapse" data-target="#Photo-description"></i></label>
 					<div class="col-lg-9">
 						<span class="help-block collapse" id="Photo-description"><div class="alert alert-info">Maximum file size allowed: 5000 KB.<br>Allowed file types: jpg, jpeg, gif, png</div></span>
 
@@ -82,7 +82,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="RegNo" class="control-label col-lg-3">RegNo<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="RegNo" class="control-label col-lg-3">No. de registro<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<input maxlength="40" type="text" class="form-control" name="RegNo" id="RegNo" value="<%%VALUE(RegNo)%%>" required><div class="text-danger vspacer-md" id="RegNo-uniqueness-note" style="display: none;"><%%TRANSLATION(unique field error)%%></div>
 					</div>
@@ -90,7 +90,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="Class" class="control-label col-lg-3" data-parent_link="view_parent_modal">Class<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="Class" class="control-label col-lg-3" data-parent_link="view_parent_modal">Clase<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(Class)%%><%%PLINK(Class)%%><%%ADDNEW(classes)%%></div>
 					</div>
@@ -98,7 +98,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="Stream" class="control-label col-lg-3" data-parent_link="view_parent_modal">Stream</label>
+					<label for="Stream" class="control-label col-lg-3" data-parent_link="view_parent_modal">Escuela/Colegio</label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(Stream)%%><%%PLINK(Stream)%%><%%ADDNEW(streams)%%></div>
 					</div>
@@ -106,7 +106,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="Hostel" class="control-label col-lg-3" data-parent_link="view_parent_modal">Hostel</label>
+					<label for="Hostel" class="control-label col-lg-3" data-parent_link="view_parent_modal">Albergue</label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(Hostel)%%><%%PLINK(Hostel)%%><%%ADDNEW(hostels)%%></div>
 					</div>
@@ -122,7 +122,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="Category" class="control-label col-lg-3" data-parent_link="view_parent_modal">Category</label>
+					<label for="Category" class="control-label col-lg-3" data-parent_link="view_parent_modal">Categoría</label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(Category)%%><%%PLINK(Category)%%><%%ADDNEW(studentcategories)%%></div>
 					</div>
@@ -130,7 +130,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="AcademicYear" class="control-label col-lg-3" data-parent_link="view_parent_modal">AcademicYear<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="AcademicYear" class="control-label col-lg-3" data-parent_link="view_parent_modal">Año académico<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(AcademicYear)%%><%%PLINK(AcademicYear)%%><%%ADDNEW(sessions)%%></div>
 					</div>
@@ -138,7 +138,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="TotalFees" class="control-label col-lg-3" data-parent_link="view_parent_modal">TotalFees<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="TotalFees" class="control-label col-lg-3" data-parent_link="view_parent_modal">Tarifas totales<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(TotalFees)%%><%%PLINK(TotalFees)%%><%%ADDNEW(schoolmoney)%%></div>
 					</div>
@@ -146,7 +146,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="AdvanceFees" class="control-label col-lg-3">AdvanceFees<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
+					<label for="AdvanceFees" class="control-label col-lg-3">Tarifas anticipadas<span class="text-danger"><%%TRANSLATION(*)%%></span></label>
 					<div class="col-lg-9">
 						<input maxlength="" type="text" class="form-control" name="AdvanceFees" id="AdvanceFees" value="<%%VALUE(AdvanceFees)%%>" required>
 					</div>
@@ -162,7 +162,7 @@
 
 				<div class="form-group">
 					<hr class="hidden-md hidden-lg">
-					<label for="Parent" class="control-label col-lg-3" data-parent_link="view_parent_modal">Parent</label>
+					<label for="Parent" class="control-label col-lg-3" data-parent_link="view_parent_modal">Padre de familia</label>
 					<div class="col-lg-9">
 						<div class="form-control-static" style="white-space: nowrap; overflow-x: hidden;"><%%COMBO(Parent)%%><%%PLINK(Parent)%%><%%ADDNEW(parents)%%></div>
 					</div>

@@ -550,7 +550,7 @@ function feescollection_form($selected_id = '', $AllowUpdate = 1, $AllowInsert =
 	}
 
 	// process form title
-	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'FeesCollection details', $templateCode);
+	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'Detalle de los pagos', $templateCode);
 	$templateCode = str_replace('<%%RND1%%>', $rnd1, $templateCode);
 	$templateCode = str_replace('<%%EMBEDDED%%>', ($_REQUEST['Embedded'] ? 'Embedded=1' : ''), $templateCode);
 	// process buttons

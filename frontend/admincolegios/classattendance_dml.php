@@ -442,7 +442,7 @@ function classattendance_form($selected_id = '', $AllowUpdate = 1, $AllowInsert 
 	}
 
 	// process form title
-	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'AttendanceManagement details', $templateCode);
+	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'Detalles de la gestión de asistencia', $templateCode);
 	$templateCode = str_replace('<%%RND1%%>', $rnd1, $templateCode);
 	$templateCode = str_replace('<%%EMBEDDED%%>', ($_REQUEST['Embedded'] ? 'Embedded=1' : ''), $templateCode);
 	// process buttons

@@ -265,7 +265,7 @@ function streams_form($selected_id = '', $AllowUpdate = 1, $AllowInsert = 1, $Al
 	}
 
 	// process form title
-	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'Stream details', $templateCode);
+	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'Detalles de la Escuela/Colegio', $templateCode);
 	$templateCode = str_replace('<%%RND1%%>', $rnd1, $templateCode);
 	$templateCode = str_replace('<%%EMBEDDED%%>', ($_REQUEST['Embedded'] ? 'Embedded=1' : ''), $templateCode);
 	// process buttons

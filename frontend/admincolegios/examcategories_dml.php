@@ -246,7 +246,7 @@ function examcategories_form($selected_id = '', $AllowUpdate = 1, $AllowInsert =
 	}
 
 	// process form title
-	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'ExamCategorie details', $templateCode);
+	$templateCode = str_replace('<%%DETAIL_VIEW_TITLE%%>', 'Detalle de la categoría de examen', $templateCode);
 	$templateCode = str_replace('<%%RND1%%>', $rnd1, $templateCode);
 	$templateCode = str_replace('<%%EMBEDDED%%>', ($_REQUEST['Embedded'] ? 'Embedded=1' : ''), $templateCode);
 	// process buttons
